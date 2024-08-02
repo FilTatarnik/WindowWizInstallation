@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import glasspic1 from '../assets/glasspic1.jpg';
+import { Link, Element } from 'react-scroll';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 class Body extends Component {
@@ -10,16 +11,16 @@ class Body extends Component {
     render() { 
         return (
             <div className='body'>
-                <section>
+                <section id='home'>
                 <img src={glasspic1} alt="Glass" className='glass-image1'></img>
                 </section>
-                <section>
-                <div className='body-content'>
-                    <h2>About us</h2>
-                    <p>Since 2015, Window Wiz Installation has provided top-quality, energy-efficient window solutions for homes and businesses. Our expert team delivers exceptional craftsmanship and innovative designs to enhance any space with style and functionality. Trust us for all your window installation needs.</p>
-                </div>
+                <section>'>
+                    <div className='body-content'>
+                        <h2  id='about'>About us</h2>
+                        <p>Since 2015, Window Wiz Installation has provided top-quality, energy-efficient window solutions for homes and businesses. Our expert team delivers exceptional craftsmanship and innovative designs to enhance any space with style and functionality. Trust us for all your window installation needs.</p>
+                    </div>
                 </section>
-                <div className="service-container service-section">
+                <div className="service-container service-section" id='services'>
                     <h1 class="service-h2">Services</h1>
                     <div class="row service-section__grid" data-staggered-reveal="">
                         <div class="service-section__item visible" data-reveal="">
@@ -98,7 +99,7 @@ class Body extends Component {
                         <button type='submit' className='btn'>Submit</button>
                     </form>
                 </div>
-                <div class="social-media-container">
+                <div class="social-media-container" id='contact'>
                     
                     <a href="https://www.facebook.com" class="social-media-button facebook" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-facebook-f"></i>                    </a>
