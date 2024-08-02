@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/WindowWizInstallation/static/css/main.0b4ddf2b.css",
+    "main.js": "/WindowWizInstallation/static/js/main.55707c7e.js",
+    "static/js/453.aa1b10a6.chunk.js": "/WindowWizInstallation/static/js/453.aa1b10a6.chunk.js",
+    "static/media/glasspic1.jpg": "/WindowWizInstallation/static/media/glasspic1.c5fc4935edffd4144c79.jpg",
+    "static/media/fa-solid-900.ttf": "/WindowWizInstallation/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/WindowWizInstallation/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/WindowWizInstallation/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/WindowWizInstallation/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/WindowWizInstallation/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/WindowWizInstallation/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/WindowWizInstallation/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/WindowWizInstallation/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/WindowWizInstallation/index.html",
+    "main.0b4ddf2b.css.map": "/WindowWizInstallation/static/css/main.0b4ddf2b.css.map",
+    "main.55707c7e.js.map": "/WindowWizInstallation/static/js/main.55707c7e.js.map",
+    "453.aa1b10a6.chunk.js.map": "/WindowWizInstallation/static/js/453.aa1b10a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b4ddf2b.css",
+    "static/js/main.55707c7e.js"
+  ]
+}
