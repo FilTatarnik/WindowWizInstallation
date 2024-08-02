@@ -12,9 +12,10 @@ class Body extends Component {
         return (
             <div className='body'>
                 <section id='home'>
-                <img src={glasspic1} alt="Glass" className='glass-image1'></img>
                 </section>
-                <section>'>
+                <img src={glasspic1} alt="Glass" className='glass-image1'></img>
+
+                <section>
                     <div className='body-content'>
                         <h2  id='about'>About us</h2>
                         <p>Since 2015, Window Wiz Installation has provided top-quality, energy-efficient window solutions for homes and businesses. Our expert team delivers exceptional craftsmanship and innovative designs to enhance any space with style and functionality. Trust us for all your window installation needs.</p>
