@@ -145,7 +145,7 @@ nav ul li {
   }
 
   .navbar-toggler.active span:nth-child(3) {
-    transform: rotate(-45deg);
+    transform: rotate(-45deg); 
   }
 
   .glass-image1 {
