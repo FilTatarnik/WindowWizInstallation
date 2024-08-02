@@ -11,8 +11,8 @@ class Navbar extends Component {
                 <h2>Window Wiz</h2>
                 <ul>
                     <li>Home</li>
-                    <li>Services</li>
                     <li>About</li>
+                    <li>Services</li>
                     <li>Contact</li>
                 </ul>
             </nav>

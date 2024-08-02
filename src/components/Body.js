@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import glasspic1 from '../assets/glasspic1.jpg';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 class Body extends Component {
     constructor(props) {
@@ -18,7 +19,7 @@ class Body extends Component {
                     <p>Since 2015, Window Wiz Installation has provided top-quality, energy-efficient window solutions for homes and businesses. Our expert team delivers exceptional craftsmanship and innovative designs to enhance any space with style and functionality. Trust us for all your window installation needs.</p>
                 </div>
                 </section>
-                <div class="container service-section">
+                <div className="service-container service-section">
                     <h1 class="service-h2">Services</h1>
                     <div class="row service-section__grid" data-staggered-reveal="">
                         <div class="service-section__item visible" data-reveal="">
@@ -78,7 +79,39 @@ class Body extends Component {
                         </div>
                         </div>
                     </div>
-                    </div>
+                </div>
+                <div className='contact-container contact-section'>
+                    <h2>Contact Us</h2>
+                    <form className='contact-form'>
+                        <div className='form-group'>
+                        <label for='name'>Name</label>
+                        <input type='text' id='name' name='name' required />
+                        </div>
+                        <div className='form-group'>
+                        <label for='email'>Email</label>
+                        <input type='email' id='email' name='email' required />
+                        </div>
+                        <div className='form-group'>
+                        <label for='message'>Message</label>
+                        <textarea id='message' name='message' rows='5' required></textarea>
+                        </div>
+                        <button type='submit' className='btn'>Submit</button>
+                    </form>
+                </div>
+                <div class="social-media-container">
+                    
+                    <a href="https://www.facebook.com" class="social-media-button facebook" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-facebook-f"></i>                    </a>
+                    <a href="https://www.twitter.com" class="social-media-button twitter" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com" class="social-media-button instagram" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com" class="social-media-button linkedin" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
             </div>
         );
     }
